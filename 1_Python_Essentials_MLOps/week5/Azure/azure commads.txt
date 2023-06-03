@@ -1,0 +1,24 @@
+after install azure cli
+
+az --version
+
+# check extensions
+az extension list
+
+# add extension: Azure Machine Learning Studio
+az extension add -n ml -y
+
+# check extension details
+az ml --help
+
+# login
+az login
+
+# account list
+az account list
+
+# install azure ml python sdk
+pip install azureml-sdk
+
+# check azure ml python sdk version
+pip show azureml-sdk
