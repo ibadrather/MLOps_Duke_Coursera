@@ -1,0 +1,11 @@
+For curses: sudo apt-get install libncurses5-dev
+For readline: sudo apt-get install libreadline-dev
+For sqlite3: sudo apt-get install libsqlite3-dev
+For tkinter: sudo apt-get install tk-dev
+
+
+# After running these commands, you should uninstall and reinstall Python using pyenv:
+
+
+pyenv uninstall 3.10.0
+pyenv install 3.10.0
